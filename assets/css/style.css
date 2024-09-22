@@ -944,7 +944,7 @@ span{
 .delivery-boy{
   position: absolute;
   top: 0;
-  left: 100px;
+  left: 25px;
   width: 90%;
   height: 90%;
   object-fit:contain;
