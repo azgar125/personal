@@ -939,13 +939,14 @@ span{
 .delivery-bannar{
   position: relative;
   aspect-ratio: 1 / 0.80;
+  padding-block-start: 100px;
 }
 .delivery-boy{
   position: absolute;
-  top: -150px;
-  left: 50px;
-  width: 650px;
-  height: 650px;
+  top: 0;
+  left: 100px;
+  width: 90%;
+  height: 90%;
   object-fit:contain;
   transform: translateX(-180px);
   -webkit-transform: translateX(-180px);
@@ -1441,8 +1442,9 @@ textarea.input-field{
       --fs-1:4.2rem;
     }
      /* popular */
-
-   
+     .delivery-boy{
+      top:50px;
+     }
      /* MENU SECTION */
    
     /* footer section */
