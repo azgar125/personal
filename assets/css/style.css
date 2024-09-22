@@ -1248,7 +1248,7 @@ color: var(--cinnabar);
 }
 @keyframes ridecicle{
   0% {left: -110px;}
-  100% {left: 90%;}
+  100% {left: 100%;}
 }
 .footer .container{
   display: grid;
