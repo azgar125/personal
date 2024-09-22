@@ -794,11 +794,11 @@ span{
 }
 .foodmenu-image{
   position: relative;
-  transform: scale(0.9);
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -o-transform: scale(0.9);
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
 }
 .food-btn{
   position: absolute;
@@ -944,15 +944,15 @@ span{
 .delivery-boy{
   position: absolute;
   top: 0;
-  left: 25px;
+  left: 100px;
   width: 90%;
   height: 90%;
   object-fit:contain;
-  transform: translateX(-125px);
-  -webkit-transform: translateX(-125px);
-  -moz-transform: translateX(-125px);
-  -ms-transform: translateX(-125px);
-  -o-transform: translateX(-125px);
+  transform: translateX(-100px);
+  -webkit-transform: translateX(-100px);
+  -moz-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
+  -o-transform: translateX(-100px);
   transition: var(--transition-2);
   -webkit-transition: var(--transition-2);
   -moz-transition: var(--transition-2);
@@ -1234,6 +1234,7 @@ color: var(--cinnabar);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
+  overflow: hidden;
   border-block-end: 2px solid var(--independence_30);
 }
 .footer-top::after{
@@ -1246,8 +1247,8 @@ color: var(--cinnabar);
   -webkit-animation:  ridecicle 20s linear infinite;
 }
 @keyframes ridecicle{
-  0% {left: -160px;}
-  100% {left: 100%;}
+  0% {left: -110px;}
+  100% {left: 90%;}
 }
 .footer .container{
   display: grid;
@@ -1375,8 +1376,8 @@ textarea.input-field{
   height: 40px;
   background-color: var(--deep-saffron);
   position: fixed;
-  right: 10px;
-  bottom: 5px;
+  right: 40px;
+  bottom: 30px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
